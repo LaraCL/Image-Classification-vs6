@@ -120,3 +120,4 @@ function gotResult(error, results) {
          section.child(createElement('table', generateResultTable(result.label, result.confidence)).style('width', '100%'));
      });
  }
+}      
